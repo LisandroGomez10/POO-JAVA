@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Exclusivo
+comment0.text=\r\n\ Clase\ que\ representa\ un\ cargo\ exclusivo.\ Hereda\ de\ la\ clase\ Cargo\ e\ incluye\r\n\ atributos\ adicionales\ para\ las\ horas\ de\ investigaci\u00F3n\ y\ extensi\u00F3n.\r\n\ Proporciona\ m\u00E9todos\ para\ obtener\ y\ establecer\ las\ horas\ de\ investigaci\u00F3n\ y\r\n\ extensi\u00F3n,\ as\u00ED\ como\ para\ mostrar\ la\ informaci\u00F3n\ del\ cargo.\r\n\ \r\n\ @author\ Gomez\ Hertler\ Lisandro.\r\n\ \r\n
+comment1.params=p_cargo\ p_sueldo\ p_anioIngreso\ p_horasDocencia\ p_horasInvestigacion\ p_horasExtension
+comment1.target=Exclusivo(java.lang.String,\ double,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ para\ inicializar\ un\ cargo\ exclusivo\ con\ informaci\u00F3n\ espec\u00EDfica.\r\n\ \r\n\ @param\ p_cargo\ \ \ \ \ \ \ \ \ \ \ \ \ \ String\ que\ representa\ el\ nombre\ del\ cargo.\r\n\ @param\ p_sueldo\ \ \ \ \ \ \ \ \ \ \ \ \ double\ que\ indica\ el\ sueldo\ b\u00E1sico.\r\n\ @param\ p_anioIngreso\ \ \ \ \ \ \ \ int\ que\ representa\ el\ a\u00F1o\ de\ ingreso.\r\n\ @param\ p_horasDocencia\ \ \ \ \ \ int\ que\ indica\ el\ n\u00FAmero\ de\ horas\ de\ docencia.\r\n\ @param\ p_horasInvestigacion\ int\ que\ representa\ el\ n\u00FAmero\ de\ horas\ de\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ investigaci\u00F3n.\r\n\ @param\ p_horasExtension\ \ \ \ \ int\ que\ representa\ el\ n\u00FAmero\ de\ horas\ de\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ extensi\u00F3n.\r\n
+comment2.params=p_horasInvestigacion
+comment2.target=void\ setHorasInvestigacion(int)
+comment3.params=p_horasExtension
+comment3.target=void\ setHorasExtension(int)
+comment4.params=
+comment4.target=int\ getHorasInvestigacion()
+comment5.params=
+comment5.target=int\ getHorasExtension()
+comment6.params=
+comment6.target=void\ mostrarCargo()
+comment6.text=\r\n\ Muestra\ la\ informaci\u00F3n\ del\ cargo\ exclusivo,\ incluyendo\ las\ horas\ de\r\n\ investigaci\u00F3n\ y\ extensi\u00F3n.\r\n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Servicio
+comment0.text=\r\n\ Clase\ Servicio\ que\ representa\ un\ servicio\ asociado\ a\ un\ alojamiento.\r\n\ Contiene\ informaci\u00F3n\ sobre\ la\ descripci\u00F3n\ del\ servicio\ y\ su\ precio.\r\n\ \r\n\ @author\ Lisandro\ Gomez\ Hertler\r\n\ @version\ 20/10/2024\r\n
+comment1.params=p_descripcion\ p_precio
+comment1.target=Servicio(java.lang.String,\ double)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Servicio.\r\n\ \r\n\ @param\ p_descripcion\ Descripci\u00F3n\ del\ servicio.\r\n\ @param\ p_precio\ Precio\ del\ servicio.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDescripcion()
+comment2.text=\r\n\ Obtiene\ la\ descripci\u00F3n\ del\ servicio.\r\n\ \r\n\ @return\ Descripci\u00F3n\ del\ servicio.\r\n
+comment3.params=
+comment3.target=double\ getPrecio()
+comment3.text=\r\n\ Obtiene\ el\ precio\ del\ servicio.\r\n\ \r\n\ @return\ Precio\ del\ servicio.\r\n
+comment4.params=p_descripcion
+comment4.target=void\ setDescripcion(java.lang.String)
+comment4.text=\r\n\ Establece\ la\ descripci\u00F3n\ del\ servicio.\r\n\ \r\n\ @param\ p_descripcion\ Descripci\u00F3n\ del\ servicio.\r\n
+comment5.params=p_precio
+comment5.target=void\ setPrecio(double)
+comment5.text=\r\n\ Establece\ el\ precio\ del\ servicio.\r\n\ \r\n\ @param\ p_precio\ Precio\ del\ servicio.\r\n
+numComments=6

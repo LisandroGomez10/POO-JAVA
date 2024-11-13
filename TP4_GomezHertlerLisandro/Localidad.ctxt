@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Localidad
+comment0.text=\r\n\ La\ clase\ Localidad\ representa\ a\ la\ localidad\ de\ un\ paciente,\r\n\ contiene\ informaci\u00F3n\ como\:\ nombre\ y\ provincia.\ Adem\u00E1s\ cuenta\ con\ un\r\n\ m\u00E9todo\ mostrar\ que\ devuelve\ una\ l\u00EDnea\ de\ texto.\r\n\ \r\n\ @author\ Gomez\ Hertler\ Lisandro\r\n\ @version\ 31/08/2024\r\n
+comment1.params=p_nombre\ p_provincia
+comment1.target=Localidad(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ para\ inicializar\ un\ objeto\ de\ la\ clase\ {@code\ Localidad}\ con\ \r\n\ nombre\ y\ provincia.\r\n\r\n\ @param\ p_nombre\ \ \ \ \ \ \ \ \ \ \ \ \ \ El\ nombre\ de\ la\ localidad.\r\n\ @param\ p_provincia\ \ \ \ \ \ \ \ \ \ \ El\ nombre\ de\ la\ provincia.\r\n
+comment2.params=p_nombre
+comment2.target=void\ setNombre(java.lang.String)
+comment2.text=\r\n\ Establece\ el\ nombre\ de\ la\ localidad.\r\n\ \r\n\ @param\ p_nombre\ el\ nombre\ de\ la\ localidad.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment3.text=\r\n\ Obtiene\ el\ nombre\ de\ la\ localidad.\r\n\ \r\n\ @return\ el\ nombre\ de\ la\ localidad.\r\n
+comment4.params=p_provincia
+comment4.target=void\ setProvincia(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getProvincia()
+comment6.params=
+comment6.target=java.lang.String\ mostrar()
+comment6.text=\r\n\ Muestra\ por\ pantalla\ una\ l\u00EDnea\ de\ texto\ que\ contiene\ el\r\n\ nombre\ de\ la\ localidad\ y\ la\ provincia.\r\n\ \r\n\ @return\ una\ l\u00EDnea\ de\ texto\ concatenada.\r\n
+numComments=7

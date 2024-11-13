@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Hotel
+comment0.text=\r\n\ Clase\ Hotel\ que\ extiende\ de\ Alojamiento\ y\ representa\ el\ alquiler\ de\ una\ habitaci\u00F3n\ en\ un\ hotel.\r\n\ Proporciona\ m\u00E9todos\ para\ calcular\ el\ costo\ del\ alojamiento,\ contar\ el\ tipo\ de\ alojamiento\ y\ liquidar\ el\ pago.\r\n\ \r\n\ @author\ Lisandro\ Gomez\ Hertler\r\n
+comment1.params=p_tipoHabitacion\ p_nombre\ p_precioBase\ p_diasAlquiler
+comment1.target=Hotel(java.lang.String,\ java.lang.String,\ double,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Hotel.\r\n\ \r\n\ @param\ p_tipoHabitacion\ Tipo\ de\ habitaci\u00F3n\ (Single\ o\ Doble).\r\n\ @param\ p_nombre\ Nombre\ del\ hotel.\r\n\ @param\ p_precioBase\ Precio\ base\ por\ d\u00EDa\ de\ alojamiento.\r\n\ @param\ p_diasAlquiler\ N\u00FAmero\ de\ d\u00EDas\ de\ alquiler.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getHabitacion()
+comment2.text=\r\n\ Obtiene\ el\ tipo\ de\ habitaci\u00F3n.\r\n\ \r\n\ @return\ Tipo\ de\ habitaci\u00F3n.\r\n
+comment3.params=p_habitacion
+comment3.target=void\ setHabitacion(java.lang.String)
+comment3.text=\r\n\ Establece\ el\ tipo\ de\ habitaci\u00F3n.\r\n\ \r\n\ @param\ p_habitacion\ Tipo\ de\ habitaci\u00F3n.\r\n
+comment4.params=
+comment4.target=double\ costo()
+comment4.text=\r\n\ Calcula\ el\ costo\ total\ del\ alojamiento\ en\ el\ hotel\ basado\ en\ el\ tipo\ de\ habitaci\u00F3n\ y\ la\ cantidad\ de\ d\u00EDas\ de\ alquiler.\r\n\ Si\ la\ habitaci\u00F3n\ es\ "Single",\ se\ agrega\ un\ costo\ adicional\ de\ 20,\ de\ lo\ contrario,\ se\ agrega\ un\ costo\ de\ 35.\r\n\ \r\n\ @return\ El\ costo\ total\ del\ alojamiento.\r\n
+comment5.params=p_alojamiento
+comment5.target=int\ contar(java.lang.String)
+comment5.text=\r\n\ Cuenta\ el\ n\u00FAmero\ de\ alojamientos\ del\ tipo\ especificado.\r\n\ \r\n\ @param\ p_alojamiento\ Tipo\ de\ alojamiento\ a\ contar.\r\n\ @return\ El\ n\u00FAmero\ de\ alojamientos\ que\ coinciden\ con\ el\ tipo\ especificado.\r\n
+comment6.params=
+comment6.target=void\ liquidar()
+comment6.text=\r\n\ Realiza\ la\ liquidaci\u00F3n\ del\ alojamiento,\ mostrando\ la\ informaci\u00F3n\ del\ hotel\ y\ el\ costo\ total.\r\n
+numComments=7

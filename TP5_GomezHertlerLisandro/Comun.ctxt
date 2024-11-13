@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Comun
+comment0.text=\r\n\ Clase\ que\ representa\ una\ etiqueta\ de\ tipo\ Com\u00FAn,\ que\ extiende\ \r\n\ la\ clase\ abstracta\ Etiqueta.\ Esta\ etiqueta\ incluye\ un\ costo\r\n\ base\ y\ un\ costo\ adicional\ (plus)\ que\ se\ suma\ al\ precio\ final\r\n\ calculado\ en\ funci\u00F3n\ de\ la\ cantidad\ solicitada.\r\n\ \r\n\ @author\ Lisandro\ Gomez\ Hertler\r\n\ @version\ 20/10/2024\r\n
+comment1.params=p_costo\ p_plus
+comment1.target=Comun(double,\ double)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ la\ etiqueta\ Com\u00FAn\ con\ un\ costo\r\n\ base\ y\ un\ costo\ adicional.\r\n\ \r\n\ @param\ p_costo\ Costo\ base\ de\ la\ etiqueta.\r\n\ @param\ p_plus\ Costo\ adicional\ de\ dise\u00F1o\ de\ la\ etiqueta.\r\n
+comment2.params=
+comment2.target=double\ getPlus()
+comment2.text=\r\n\ Devuelve\ el\ costo\ adicional\ (plus)\ de\ la\ etiqueta.\r\n\ \r\n\ @return\ Costo\ adicional\ de\ la\ etiqueta.\r\n
+comment3.params=p_plus
+comment3.target=void\ setPlus(double)
+comment4.params=p_cantidad
+comment4.target=double\ precio(int)
+comment4.text=\r\n\ Calcula\ el\ precio\ total\ de\ la\ etiqueta\ en\ funci\u00F3n\ de\ la\r\n\ cantidad\ solicitada,\ aplicando\ descuentos\ si\ corresponde.\r\n\ \r\n\ @param\ p_cantidad\ Cantidad\ de\ etiquetas\ solicitadas.\r\n\ @return\ Precio\ total\ de\ las\ etiquetas.\r\n
+comment5.params=p_cantidad
+comment5.target=double\ descuento(int)
+comment5.text=\r\n\ Calcula\ el\ descuento\ en\ funci\u00F3n\ de\ la\ cantidad\ de\ etiquetas\r\n\ solicitadas.\r\n\ \r\n\ @param\ p_cantidad\ Cantidad\ de\ etiquetas\ solicitadas.\r\n\ @return\ Monto\ del\ descuento\ aplicado.\r\n
+comment6.params=
+comment6.target=java.lang.String\ tipo()
+comment6.text=\r\n\ Devuelve\ el\ tipo\ de\ etiqueta.\r\n\ \r\n\ @return\ Tipo\ de\ la\ etiqueta\ como\ cadena.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Representa\ la\ informaci\u00F3n\ de\ la\ etiqueta\ Com\u00FAn\ como\ una\ cadena.\r\n\ \r\n\ @return\ Representaci\u00F3n\ en\ cadena\ de\ la\ etiqueta\ Com\u00FAn.\r\n
+numComments=8

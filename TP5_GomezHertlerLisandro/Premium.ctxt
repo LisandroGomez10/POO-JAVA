@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Premium
+comment0.text=\r\n\ Clase\ que\ representa\ una\ etiqueta\ de\ tipo\ Premium,\ que\ extiende\ \r\n\ la\ clase\ abstracta\ Etiqueta.\ Esta\ etiqueta\ incluye\ un\ costo\r\n\ base\ y\ un\ cargo\ adicional\ basado\ en\ la\ cantidad\ de\ colores\r\n\ utilizados\ en\ su\ dise\u00F1o.\r\n\ \r\n\ @author\ Lisandro\ Gomez\ Hertler\r\n\ @version\ 20/10/2024\r\n
+comment1.params=p_colores\ p_costo
+comment1.target=Premium(int,\ double)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ la\ etiqueta\ Premium\ con\ la\ cantidad\r\n\ de\ colores\ y\ un\ costo\ base.\r\n\ \r\n\ @param\ p_colores\ Cantidad\ de\ colores\ utilizados\ en\ la\ etiqueta.\r\n\ @param\ p_costo\ Costo\ base\ de\ la\ etiqueta.\r\n
+comment2.params=
+comment2.target=int\ getColores()
+comment2.text=\r\n\ Devuelve\ la\ cantidad\ de\ colores\ de\ la\ etiqueta.\r\n\ \r\n\ @return\ Cantidad\ de\ colores\ de\ la\ etiqueta.\r\n
+comment3.params=p_colores
+comment3.target=void\ setColores(int)
+comment4.params=p_cantidad
+comment4.target=double\ precio(int)
+comment4.text=\r\n\ Calcula\ el\ precio\ total\ de\ la\ etiqueta\ en\ funci\u00F3n\ de\ la\r\n\ cantidad\ solicitada\ y\ los\ colores\ utilizados,\ incluyendo\r\n\ el\ cargo\ adicional.\r\n\ \r\n\ @param\ p_cantidad\ Cantidad\ de\ etiquetas\ solicitadas.\r\n\ @return\ Precio\ total\ de\ las\ etiquetas.\r\n
+comment5.params=
+comment5.target=double\ adicional()
+comment5.text=\r\n\ Calcula\ el\ cargo\ adicional\ basado\ en\ la\ cantidad\ de\ colores\r\n\ utilizados\ en\ la\ etiqueta.\r\n\ \r\n\ @return\ Monto\ del\ cargo\ adicional.\r\n
+comment6.params=
+comment6.target=java.lang.String\ tipo()
+comment6.text=\r\n\ Devuelve\ el\ tipo\ de\ etiqueta.\r\n\ \r\n\ @return\ Tipo\ de\ la\ etiqueta\ como\ cadena.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Representa\ la\ informaci\u00F3n\ de\ la\ etiqueta\ Premium\ como\ una\ cadena.\r\n\ \r\n\ @return\ Representaci\u00F3n\ en\ cadena\ de\ la\ etiqueta\ Premium.\r\n
+numComments=8

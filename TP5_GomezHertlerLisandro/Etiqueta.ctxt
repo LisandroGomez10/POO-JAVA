@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Etiqueta
+comment0.text=\r\n\ Clase\ abstracta\ Etiqueta\ que\ representa\ una\ etiqueta\ con\ un\ costo\r\n\ asociado.\ Debe\ ser\ extendida\ por\ clases\ concretas\ que\ definan\ \r\n\ su\ tipo\ y\ precio.\r\n\ \r\n\ @author\ Lisandro\ Gomez\ Hertler\r\n\ @version\ 20/10/2024\r\n
+comment1.params=p_costo
+comment1.target=Etiqueta(double)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ la\ etiqueta\ con\ un\ costo\ especificado.\r\n\ \r\n\ @param\ p_costo\ Costo\ de\ la\ etiqueta.\r\n
+comment2.params=
+comment2.target=double\ getCosto()
+comment2.text=\r\n\ Devuelve\ el\ costo\ de\ la\ etiqueta.\r\n\ \r\n\ @return\ Costo\ de\ la\ etiqueta.\r\n
+comment3.params=p_costo
+comment3.target=void\ setCosto(double)
+comment4.params=p_precio
+comment4.target=double\ precio(int)
+comment4.text=\r\n\ M\u00E9todo\ abstracto\ que\ debe\ ser\ implementado\ por\ las\ subclases\r\n\ para\ calcular\ el\ precio\ de\ la\ etiqueta\ en\ funci\u00F3n\ de\ un\r\n\ par\u00E1metro\ espec\u00EDfico.\r\n\ \r\n\ @param\ p_precio\ Par\u00E1metro\ que\ se\ utiliza\ para\ calcular\ el\ precio.\r\n\ @return\ Precio\ calculado\ de\ la\ etiqueta.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Representa\ la\ informaci\u00F3n\ de\ la\ etiqueta\ como\ una\ cadena.\r\n\ \r\n\ @return\ Representaci\u00F3n\ en\ cadena\ de\ la\ etiqueta.\r\n
+comment6.params=
+comment6.target=java.lang.String\ tipo()
+comment6.text=\r\n\ M\u00E9todo\ abstracto\ que\ debe\ ser\ implementado\ por\ las\ subclases\r\n\ para\ devolver\ el\ tipo\ de\ etiqueta.\r\n\ \r\n\ @return\ Tipo\ de\ etiqueta\ como\ una\ cadena.\r\n
+numComments=7

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Caba\u00F1a
+comment0.text=\r\n\ Clase\ Caba\u00F1a\ que\ extiende\ de\ Alojamiento\ y\ representa\ el\ alquiler\ de\ una\ caba\u00F1a.\r\n\ Proporciona\ m\u00E9todos\ para\ calcular\ el\ costo\ del\ alojamiento,\ contar\ el\ tipo\ de\ alojamiento\ y\ liquidar\ el\ pago.\r\n\ \r\n\ @author\ Lisandro\ Gomez\ Hertler\r\n\ @version\ 20/10/2024\r\n
+comment1.params=p_nroHabitaciones\ p_nombre\ p_precioBase\ p_diasAlquiler
+comment1.target=Caba\u00F1a(int,\ java.lang.String,\ double,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Caba\u00F1a.\r\n\ \r\n\ @param\ p_nroHabitaciones\ N\u00FAmero\ de\ habitaciones\ en\ la\ caba\u00F1a.\r\n\ @param\ p_nombre\ Nombre\ de\ la\ caba\u00F1a.\r\n\ @param\ p_precioBase\ Precio\ base\ por\ d\u00EDa\ de\ alojamiento.\r\n\ @param\ p_diasAlquiler\ N\u00FAmero\ de\ d\u00EDas\ de\ alquiler.\r\n
+comment2.params=
+comment2.target=int\ getNroHabitaciones()
+comment2.text=\r\n\ Obtiene\ el\ n\u00FAmero\ de\ habitaciones\ de\ la\ caba\u00F1a.\r\n\ \r\n\ @return\ N\u00FAmero\ de\ habitaciones.\r\n
+comment3.params=p_nroHabitaciones
+comment3.target=void\ setNroHabitaciones(int)
+comment3.text=\r\n\ Establece\ el\ n\u00FAmero\ de\ habitaciones\ de\ la\ caba\u00F1a.\r\n\ \r\n\ @param\ p_nroHabitaciones\ N\u00FAmero\ de\ habitaciones.\r\n
+comment4.params=
+comment4.target=double\ costo()
+comment4.text=\r\n\ Calcula\ el\ costo\ total\ del\ alojamiento\ en\ la\ caba\u00F1a\ basado\ en\ el\ n\u00FAmero\ de\ habitaciones\ y\ la\ cantidad\ de\ d\u00EDas\ de\ alquiler.\r\n\ \r\n\ @return\ El\ costo\ total\ del\ alojamiento.\r\n
+comment5.params=p_alojamiento
+comment5.target=int\ contar(java.lang.String)
+comment5.text=\r\n\ Cuenta\ el\ n\u00FAmero\ de\ alojamientos\ del\ tipo\ especificado.\r\n\ \r\n\ @param\ p_alojamiento\ Tipo\ de\ alojamiento\ a\ contar.\r\n\ @return\ El\ n\u00FAmero\ de\ alojamientos\ que\ coinciden\ con\ el\ tipo\ especificado.\r\n
+comment6.params=
+comment6.target=void\ liquidar()
+comment6.text=\r\n\ Realiza\ la\ liquidaci\u00F3n\ del\ alojamiento,\ mostrando\ la\ informaci\u00F3n\ de\ la\ caba\u00F1a\ y\ el\ costo\ total.\r\n
+numComments=7

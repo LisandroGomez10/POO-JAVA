@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=SemiExclusivo
+comment0.text=\r\n\ Clase\ que\ representa\ un\ cargo\ semi-exclusivo\ de\ un\ profesor.\r\n\ \r\n\ Contiene\ informaci\u00F3n\ sobre\ las\ horas\ de\ docencia\ e\ investigaci\u00F3n\ del\ cargo.\r\n\ \r\n\ @author\ Gomez\ Hertler\ Lisandro;\r\n\ \r\n
+comment1.params=p_cargo\ p_sueldo\ p_anioIngreso\ p_horasDocencia\ p_horasInvestigacion
+comment1.target=SemiExclusivo(java.lang.String,\ double,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ un\ cargo\ semi-exclusivo\ con\ sueldo,\ a\u00F1o\ de\r\n\ ingreso,\ horas\ de\ docencia\ e\ horas\ de\ investigaci\u00F3n.\r\n\ \r\n\ @param\ p_cargo\ \ \ \ \ \ \ \ \ \ \ \ \ \ Nombre\ del\ cargo.\r\n\ @param\ p_sueldo\ \ \ \ \ \ \ \ \ \ \ \ \ Sueldo\ del\ cargo.\r\n\ @param\ p_anioIngreso\ \ \ \ \ \ \ \ A\u00F1o\ de\ ingreso\ al\ cargo.\r\n\ @param\ p_horasDocencia\ \ \ \ \ \ Horas\ dedicadas\ a\ la\ docencia.\r\n\ @param\ p_horasInvestigacion\ Horas\ dedicadas\ a\ la\ investigaci\u00F3n.\r\n
+comment2.params=p_horasInvestigacion
+comment2.target=void\ setHorasInvestigacion(int)
+comment3.params=
+comment3.target=int\ getHorasInvestigacion()
+comment4.params=
+comment4.target=void\ mostrarCargo()
+comment4.text=\r\n\ Muestra\ la\ informaci\u00F3n\ del\ cargo\ semi-exclusivo\ en\ la\ consola.\r\n
+numComments=5

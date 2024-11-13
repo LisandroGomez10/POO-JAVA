@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Hospital
+comment0.text=\r\n\ La\ clase\ Hospital\ representa\ a\ un\ hospital\ con\ informaci\u00F3n\ \r\n\ como\:\ nombre\ del\ hospital\ y\ nombre\ del\ director\ del\ hospital.\ Adem\u00E1s,\r\n\ posee\ el\ m\u00E9todo\ consultaDatosFiliatorios(),\ que\ recibe\ como\ par\u00E1metro\r\n\ un\ objeto\ Paciente.\r\n\ \r\n\ @author\ Gomez\ Hertler\ Lisandro\r\n\ @version\ 31/8/2024\r\n
+comment1.params=p_nombreHospital\ p_nombreDirector
+comment1.target=Hospital(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ para\ inicializar\ un\ objeto\ de\ la\ clase\ {@code\ Hospital}\ con\r\n\ nombre\ del\ hospital\ y\ nombre\ del\ director\ del\ hospital.\r\n\r\n\ @param\ p_nombreHospital\ \ \ \ \ \ \ \ \ \ \ \ El\ nombre\ del\ hospital.\r\n\ @param\ p_nombreDirector\ \ \ \ \ \ \ \ \ \ \ \ El\ nombre\ del\ director\ del\ hospital.\r\n
+comment2.params=p_nombreHospital
+comment2.target=void\ setNombreHospital(java.lang.String)
+comment2.text=\r\n\ Establece\ el\ nombre\ del\ hospital.\r\n\ \r\n\ @param\ p_nombreHospital\ nombre\ del\ hospital.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNombreHospital()
+comment3.text=\r\n\ Obtiene\ el\ nombre\ del\ hospital.\r\n\ \r\n\ @return\ el\ nombre\ del\ hospital.\r\n
+comment4.params=p_nombreDirector
+comment4.target=void\ setNombreDirector(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getNombreDirector()
+comment6.params=p_paciente
+comment6.target=void\ consultaDatosFiliatorios(Paciente)
+comment6.text=\r\n\ Muestra\ por\ pantalla\ la\ informaci\u00F3n\ del\ hospital\ y\ del\ paciente.\ \r\n
+numComments=7

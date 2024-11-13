@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Escuela
+comment0.text=\r\n\ La\ clase\ Escuela\ representa\ a\ una\ escuela\ con\ informaci\u00F3n\r\n\ como\:\ nombre,\ domicilio\ y\ director\ (nombres\ y\ apellidos\ respectivos).\r\n\ \r\n\ @author\ Gomez\ Hertler\ Lisandro\r\n\ @version\ 30/8/2024\r\n
+comment1.params=p_nombre\ p_domicilio\ p_director
+comment1.target=Escuela(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ para\ inicializar\ un\ objeto\ de\ la\ clase\ {@code\ Escuela}\ con\ nombre,\r\n\ domicilio\ y\ director\ (nombres\ y\ apellidos\ respectivos).\r\n\ \r\n\ @param\ p_nombre\ \ \ \ \ \ \ \ \ \ El\ nombre\ de\ la\ escuela.\r\n\ @param\ p_domicilio\ \ \ \ \ \ \ El\ domicilio\ de\ la\ escuela.\r\n\ @param\ p_director\ \ \ \ \ \ \ \ El\ nombre\ y\ apellido\ del\ director\ de\ la\ escuela.\r\n
+comment2.params=p_nombre
+comment2.target=void\ setNombre(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment4.params=p_domicilio
+comment4.target=void\ setDomicilio(java.lang.String)
+comment4.text=\r\n\ Establece\ el\ domicilio\ de\ la\ escuela.\r\n\ \r\n\ @param\ p_domicilio\ domicilio\ de\ la\ escuela.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDomicilio()
+comment5.text=\r\n\ Obtiene\ el\ domicilio\ de\ la\ escuela.\r\n\ \r\n\ @return\ el\ domicilio\ de\ la\ escuela.\r\n
+comment6.params=p_director
+comment6.target=void\ setDirector(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getDirector()
+comment8.params=p_docente
+comment8.target=void\ imprimirRecibo(Docente)
+comment8.text=\r\n\ Imprime\ por\ pantalla\ el\ recibo\ de\ un\ docente.\ Muestra\ los\ datos\:\r\n\ nombre\ y\ domicilio\ de\ la\ escuela,\ adem\u00E1s\ del\ nombre\ de\ su\ director.\ \r\n\ Tambi\u00E9n\ se\ muestran\ el\ nombre,\ sueldo,\ sueldo\ b\u00E1sico\ y\ asignaci\u00F3n\ familiar\r\n\ del\ docente.\r\n
+numComments=9

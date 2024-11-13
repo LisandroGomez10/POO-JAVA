@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Punto
+comment0.text=\r\n\ La\ clase\ Punto\ representa\ a\ un\ punto\ geom\u00E9trico\ con\ informaci\u00F3n\r\n\ como\:\ X\ (coordenadas\ en\ el\ eje\ X)\ y\ Y\ (coordenadas\ en\ el\ eje\ Y).\r\n\ \r\n\ @author\ Gomez\ Hertler\ Lisandro\r\n\ @version\ 29/8/2024\r\n
+comment1.params=p_x\ p_y
+comment1.target=Punto(double,\ double)
+comment1.text=\r\n\ Constructor\ para\ inicializar\ un\ objeto\ de\ la\ clase\ {@code\ Punto}\ con\ coordenadas\ en\ X\r\n\ y\ con\ coordenadas\ en\ Y.\r\n\r\n\ @param\ p_x\ \ \ Coordenadas\ en\ x\ del\ punto.\r\n\ @param\ p_y\ \ \ Coordenadas\ en\ y\ del\ punto.\r\n
+comment10.params=
+comment10.target=void\ mostrar()
+comment10.text=\r\n\ Muestra\ por\ pantalla\ la\ informaci\u00F3n\ del\ punto\:\ coordenadas\ en\ X\ y\ coordenadas\ en\ Y.\r\n
+comment2.params=
+comment2.target=Punto()
+comment2.text=\r\n\ Constructor\ para\ inicializar\ un\ objeto\ de\ la\ clase\ {@code\ Punto}\ con\ coordenadas\ en\ X\ \r\n\ inicializado\ en\ cero\ (0.0)\ y\ con\ coordenadas\ en\ Y\ inicializado\ en\ cero\ (0.0).\r\n
+comment3.params=p_x
+comment3.target=void\ setX(double)
+comment3.text=\r\n\ Establece\ las\ coordenadas\ en\ X.\r\n\ \r\n\ @param\ p_x\ valor\ Coordenadas\ en\ X.\r\n
+comment4.params=
+comment4.target=double\ getX()
+comment4.text=\r\n\ Obtiene\ las\ coordenadas\ en\ X\ del\ punto.\r\n\ \r\n\ @return\ las\ coordenadas\ en\ X\ del\ punto.\r\n
+comment5.params=p_y
+comment5.target=void\ setY(double)
+comment5.text=\r\n\ Establece\ las\ coordenadas\ en\ Y.\r\n\ \r\n\ @param\ p_x\ valor\ Coordenadas\ en\ Y.\r\n
+comment6.params=
+comment6.target=double\ getY()
+comment6.text=\r\n\ Obtiene\ las\ coordenadas\ en\ Y\ del\ punto.\r\n\ \r\n\ @return\ las\ coordenadas\ en\ Y\ del\ punto.\r\n
+comment7.params=p_dx\ p_dy
+comment7.target=void\ desplazar(double,\ double)
+comment7.text=\r\n\ Cambia\ la\ posici\u00F3n\ del\ punto\ desde\ (x,\ y)\ a\ (x+dx,\ y+dy).\r\n\ \r\n\ @param\ p_dx\ desplazamiento\ en\ X.\r\n\ @param\ p_dy\ desplazamiento\ en\ Y.\r\n
+comment8.params=
+comment8.target=java.lang.String\ coordenadas()
+comment8.text=\r\n\ Retorna\ una\ cadena\ con\ el\ formato\:\ (X.x,\ Y.y).\r\n\ \r\n\ @return\ una\ linea\ de\ texto.\r\n
+comment9.params=p_ptoDistante
+comment9.target=double\ distanciaA(Punto)
+comment9.text=\r\n\ Calcula\ la\ distancia\ desde\ \u00E9l\ mismo\ (el\ objeto\ que\ recibe\ el\ mensaje)\ hasta\ \r\n\ otro\ objeto\ Punto\ que\ es\ recibido\ como\ par\u00E1metro,\ utilizando\ la\ ecuaci\u00F3n\ de\ \r\n\ Pit\u00E1goras\:\ C^2\ \=\ A^2\ +\ B^2.\r\n\ \r\n\ @param\ p_ptoDistante\ otro\ objeto\ Punto.\r\n\ @return\ la\ distancia\ desde\ el\ objeto\ actual\ hasta\ el\ punto\ pasado\ como\ par\u00E1metro.\ \r\n
+numComments=11

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Cuadrado
+comment1.params=p_origen\ p_lado
+comment1.target=Cuadrado(Punto,\ double)
+comment2.params=
+comment2.target=Cuadrado()
+comment3.params=
+comment3.target=java.lang.String\ nombreFigura()
+comment4.params=
+comment4.target=void\ caracteristicas()
+numComments=5

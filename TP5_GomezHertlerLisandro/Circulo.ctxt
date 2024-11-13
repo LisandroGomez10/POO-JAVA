@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Circulo
+comment0.text=\r\n\ Clase\ Circulo\ que\ representa\ un\ c\u00EDrculo\ geom\u00E9trico.\r\n\ Extiende\ la\ clase\ Elipse\ y\ proporciona\ un\ constructor\r\n\ espec\u00EDfico\ para\ c\u00EDrculos\ con\ un\ radio\ igual\ en\ ambos\ ejes.\r\n\ \r\n\ @author\ Lisandro\ Gomez\ Hertler\r\n\ @version\ 20/10/2024\r\n
+comment1.params=p_centro\ p_radio
+comment1.target=Circulo(Punto,\ double)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Circulo\ que\ inicializa\ el\ c\u00EDrculo\r\n\ con\ un\ centro\ y\ un\ radio\ especificados.\r\n\ \r\n\ @param\ p_centro\ Punto\ que\ representa\ el\ centro\ del\ c\u00EDrculo.\r\n\ @param\ p_radio\ Radio\ del\ c\u00EDrculo.\r\n
+comment2.params=
+comment2.target=Circulo()
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ Circulo\ que\ inicializa\ el\ c\u00EDrculo\r\n\ con\ un\ centro\ por\ defecto\ y\ un\ radio\ de\ 0.\r\n
+comment3.params=
+comment3.target=java.lang.String\ nombreFigura()
+comment3.text=\r\n\ Devuelve\ el\ nombre\ de\ la\ figura\ geom\u00E9trica.\r\n\ \r\n\ @return\ Nombre\ de\ la\ figura,\ en\ este\ caso\ "******Circulo******".\r\n
+numComments=4

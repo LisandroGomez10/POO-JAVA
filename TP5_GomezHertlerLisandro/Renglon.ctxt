@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Renglon
+comment0.text=\r\n\ Clase\ Renglon\ que\ representa\ un\ item\ dentro\ de\ un\ pedido,\r\n\ incluyendo\ la\ cantidad,\ el\ importe\ y\ la\ etiqueta\ asociada.\r\n\ \r\n\ @author\ Lisandro\ Gomez\ Hertler\r\n\ @version\ 20/10/2024\r\n
+comment1.params=p_cantidad\ p_importe\ p_item
+comment1.target=Renglon(int,\ double,\ Etiqueta)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ un\ renglon\ con\ la\ cantidad,\r\n\ importe\ y\ etiqueta\ especificados.\r\n\ \r\n\ @param\ p_cantidad\ Cantidad\ de\ items.\r\n\ @param\ p_importe\ Importe\ total\ del\ renglon.\r\n\ @param\ p_item\ Etiqueta\ asociada\ al\ renglon.\r\n
+comment2.params=
+comment2.target=int\ getCantidad()
+comment2.text=\r\n\ Devuelve\ la\ cantidad\ de\ items\ en\ el\ renglon.\r\n\ \r\n\ @return\ Cantidad\ de\ items.\r\n
+comment3.params=p_cantidad
+comment3.target=void\ setCantidad(int)
+comment4.params=
+comment4.target=double\ getImporte()
+comment4.text=\r\n\ Devuelve\ el\ importe\ total\ del\ renglon.\r\n\ \r\n\ @return\ Importe\ total.\r\n
+comment5.params=p_importe
+comment5.target=void\ setImporte(double)
+comment6.params=
+comment6.target=Etiqueta\ getEtiqueta()
+comment6.text=\r\n\ Devuelve\ la\ etiqueta\ asociada\ al\ renglon.\r\n\ \r\n\ @return\ Etiqueta\ del\ renglon.\r\n
+comment7.params=p_item
+comment7.target=void\ setEtiqueta(Etiqueta)
+comment8.params=
+comment8.target=void\ mostrar()
+comment8.text=\r\n\ Muestra\ los\ detalles\ del\ renglon\ en\ la\ consola.\r\n
+numComments=9

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CajaDeAhorro
+comment0.text=\r\n\ La\ clase\ CajaDeAhorro\ representa\ una\ cuenta\ de\ ahorro\ con\ un\ l\u00EDmite\ de\ extracciones.\r\n\ \r\n\ @author\ Gomez\ Hertler\ Lisandro\r\n\ @version\ 30/8/2024\r\n
+comment1.params=p_nroCuenta\ p_titular\ p_saldo\ p_limiteExtracciones
+comment1.target=CajaDeAhorro(int,\ Persona,\ double,\ int)
+comment1.text=\r\n\ Constructor\ para\ inicializar\ un\ objeto\ de\ la\ clase\ {@code\ CajaDeAhorro}.\r\n\ \r\n\ @param\ p_nroCuenta\ \ \ \ \ \ \ El\ n\u00FAmero\ de\ cuenta\ del\ titular.\r\n\ @param\ p_titular\ \ \ \ \ \ \ \ \ El\ titular\ de\ la\ cuenta\ bancaria.\r\n\ @param\ p_saldo\ \ \ \ \ \ \ \ \ \ \ El\ saldo\ del\ titular\ en\ la\ cuenta\ bancaria.\r\n\ @param\ p_limiteExtracciones\ El\ l\u00EDmite\ de\ extracciones\ permitidas\ por\ mes.\r\n
+comment2.params=
+comment2.target=int\ getLimiteExtraccion()
+comment3.params=p_limiteExtraccion
+comment3.target=void\ setLimiteExtracciones(int)
+comment4.params=p_importe
+comment4.target=double\ extraer(double)
+comment4.text=\r\n\ Decrementa\ el\ saldo\ actual\ de\ la\ cuenta\ bancaria,\ respetando\ el\ l\u00EDmite\ de\ extracciones.\r\n\ \r\n\ @param\ p_importe\ cantidad\ (double)\ monetaria\ a\ quitar.\r\n\ @return\ el\ saldo\ actualizado\ por\ el\ importe\ retirado.\r\n\ @throws\ IllegalArgumentException\ si\ se\ supera\ el\ l\u00EDmite\ de\ extracciones.\r\n
+comment5.params=
+comment5.target=void\ mostrar()
+comment5.text=\r\n\ Restablece\ el\ contador\ de\ extracciones\ al\ inicio\ de\ un\ nuevo\ ciclo\ (por\ ejemplo,\ mensual).\r\n
+numComments=6
